@@ -35,7 +35,7 @@ const TestimonialCard = ({
       </div>
       <div className="mt-8 flex items-center gap-4">
         <Image
-          src="/img/avatar.png"
+          src="/img/Avatar.png"
           alt="User avatar"
           width={56}
           height={56}

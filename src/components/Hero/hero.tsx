@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="relative h-64 sm:h-80 lg:h-full w-full lg:ml-24 lg:mr-[-80px] lg:order-last ">
           <Image
             alt="Team chat highlight"
-            src="/images/mockup.png"
+            src="/img/mockup.png"
             layout="fill"
             objectFit="cover"
           />
