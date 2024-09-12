@@ -4,7 +4,6 @@ import Hero from "@/components/Hero/hero";
 import HL from "@/components/HL/highlights";
 import Navbar from "@/components/Navbar/navbar";
 import TestimonialSection from "@/components/Testimoni/testimonial";
-import Image from "next/image";
 import "./globals.css";
 
 export default function Home() {

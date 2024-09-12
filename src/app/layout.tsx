@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Lexend_Deca } from 'next/font/google';
 import "./globals.css";
 

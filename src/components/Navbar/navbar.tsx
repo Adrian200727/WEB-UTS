@@ -1,21 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import Script from "next/script";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [showMobileNav, setShowMobileNav] = useState(false); // Track mobile nav visibility
-
-  // Handle scroll event
-  const handleScroll = () => {
-    if (window.scrollY > 50) {
-      setIsScrolled(true); // Aktifkan class scroll ketika lebih dari 50px
-    } else {
-      setIsScrolled(false); // Nonaktifkan class scroll
-    }
-  };
 
   // Toggle mobile nav visibility
   const toggleMobileNav = () => {
