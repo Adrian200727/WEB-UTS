@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled] = useState(false);
   const [showMobileNav, setShowMobileNav] = useState(false); // Track mobile nav visibility
 
   // Toggle mobile nav visibility
